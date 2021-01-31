@@ -17,6 +17,7 @@ public class HttpDemo {
             System.out.println(response.toString());
             System.out.println(response.body().string());
         } catch (IOException e) {
+
             e.printStackTrace();
         }
     }
